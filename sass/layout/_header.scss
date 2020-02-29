@@ -1,0 +1,21 @@
+.header {
+  height: 85vh;
+  background-image: linear-gradient(
+      315deg,
+      rgba($color-primary-dark, 0.8) 0%,
+      rgba($color-primary-light, 0.8) 74%
+    ),
+    url(../images/scoopsahoy.png);
+  background-size: cover;
+  background-position: top;
+  position: relative;
+  clip-path: polygon(0 0, 100% 0, 100% 50vh, 0 100%);
+
+  &__text-box {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+}

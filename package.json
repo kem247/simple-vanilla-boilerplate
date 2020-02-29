@@ -4,6 +4,7 @@
   "description": "",
   "main": "main.js",
   "scripts": {
+    "compile-sass": "node-sass sass/main.scss css/main.css -w",
     "test": "jest",
     "test:watch": "jest --watchAll",
     "server": "simplehttpserver",
@@ -21,5 +22,8 @@
     "simplehttpserver": "^0.3.0",
     "webpack": "^4.41.6",
     "webpack-cli": "^3.3.11"
+  },
+  "devDependencies": {
+    "node-sass": "^4.13.1"
   }
 }

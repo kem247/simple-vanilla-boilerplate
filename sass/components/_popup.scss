@@ -29,31 +29,39 @@
     transition: all 0.5s 0.2s;
   }
   &__chatbox {
-    display: block;
-    // text-align: left;
-    // margin: 0 auto;
-    // margin-bottom: 25px;
-    // padding: 10px;
-    background-color: white;
-    height: 260px;
-    width: 430px;
-    border: 1px solid #acd8f0;
-    // overflow: auto;
+    height: 200px;
+    margin-bottom: 30%;
+    display: inline-block;
+    // display: block;
+    // padding: 5px;
+    // position: absolute;
+    // margin-top: 20rem;
+    // // text-align: left;
+    // // margin: 0 auto;
+    // // margin-bottom: 25px;
+    // // padding: 10px;
+    // background-color: $color-white;
+    // height: 100rem;
+    // width: 40rem;
+    // border: 1px solid #acd8f0;
+    // border-width: 0 1px;
+    // // overflow: auto;
   }
   &__input {
+    border: 0;
+    margin: 0;
     height: 20rem;
     width: 50%;
-    padding: 6rem;
-    margin-top: 13.5%;
+    padding: 0;
+    margin-top: 0;
     font-size: 1.5rem;
     font-family: inherit;
     color: inherit;
-    padding: 1.5rem 2rem;
     border-radius: 2px;
     border-bottom: 3px solid transparent;
     border: none;
     width: 90%;
-    display: block;
+    display: flex;
     transition: all 0.3s;
 
     // background-color: rgba($color-gray-dark);
